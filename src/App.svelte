@@ -125,7 +125,7 @@ Justin Arinze (He's Mine) ❤️🌹💌`;
             "Content-Type": "application/json",
           },
           body: JSON.stringify({ choice }),
-        });//https://utonwa.netlify.app/
+        }); //https://utonwa.netlify.app/
 
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
@@ -144,7 +144,16 @@ Justin Arinze (He's Mine) ❤️🌹💌`;
 
         showModal = true;
       } catch (error) {
-        modalMessage = `Oops, something went wrong. Please try again.`;
+        selectedChoice = choice;
+        localStorage.setItem("pillChoice", choice);
+        showButtons = false;
+
+        // Romantic meanings for each pill
+        if (choice === "blue") {
+          modalMessage = `💙 You chose the *Blue Pill*... which means a sweet, cozy time together just us lodging ❤️. I can’t wait to be with you.`;
+        } else if (choice === "red") {
+          modalMessage = `❤️ You chose the *Red Pill*... which means an exciting outing this Sunday 🌞. Let’s make it a day to remember, my love.`;
+        }
         showModal = true;
       }
     }
@@ -471,7 +480,7 @@ Justin Arinze (He's Mine) ❤️🌹💌`;
   </div>
 {/if}
 
-{#if !showButtons}
+{#if showButtons}
   <div class="button-container">
     <button
       class="pill-button blue-pill"
