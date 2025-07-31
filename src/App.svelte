@@ -19,7 +19,7 @@
       audio.loop = true;
       audio.volume = 0.4;
     }
-    
+
     const savedChoice = localStorage.getItem("pillChoice");
     if (savedChoice) {
       selectedChoice = savedChoice as "blue" | "red";
@@ -53,13 +53,65 @@
   let deleting = false;
 
   // Love letter
-  const letter = `Happy Girlfriend's Day, my love ❤️
+  const letter = `Happy Girlfriend's Day, my love ❤️🌹
 
-From the moment you walked into my life, everything changed for the better.
-You’ve filled my days with laughter, my heart with warmth, and my soul with peace.
+From the very moment you walked into my life, everything changed for the better 💖.  
+Before you, love was just a word I thought I understood… but you showed me its meaning in the most beautiful way ✨.  
+You are not just my girlfriend — you are my heart, my safe place, my answered prayer 🙏💞.  
+Every smile you give me is like a sunrise 🌅 that lights up my entire world, and every touch of your hand feels like home 🏡❤️.
 
-Forever yours,
-[Your Name]`;
+Deep in my soul, there is a dream I carry every single day… the dream of you becoming my wife 💍❤️.  
+I imagine it so clearly 😍 — the day we stand together at the altar, you in the most beautiful dress 👰, me barely able to hold back my tears 🥹, my heart pounding with joy 💓.  
+The moment you say “I do” 💌, I will know that every prayer, every hope, every wait was worth it 🌈.  
+That moment will be the start of our forever — a forever I have longed for since the very first time I saw you 🌟.
+
+I dream of our home together 🏡, filled with laughter 😂, warm hugs 🤗, and the sound of little feet running through the halls 👣.  
+I dream of us raising our children together 🍼❤️ — you holding our first baby while I look at you and think, *"Wow… this is the woman I get to spend my life with."* 🥰  
+I imagine family dinners 🍽️, bedtime stories 📖, playful arguments over what movie to watch 🎬, and us smiling at each other from across the room, knowing in our hearts… *we made this life together* 💞.
+
+But my dreams go even further than that 🌏💫… 
+I dream of traveling the world with you ✈️🌍, seeing new places and making memories that will last forever 🗺️❤️.  
+I dream of us walking on beaches hand in hand 🏖️, watching sunsets 🌅, laughing under the stars ✨, and taking silly pictures just to remember how happy we felt.  
+I dream of us growing old together 👵👴, sitting on the porch one day, holding hands 🤝, and smiling as we watch our grandchildren play 🍼💞.
+
+Through every challenge we’ve faced 💔, you’ve shown me what real love is 💗.  
+You’ve forgiven me even when I didn’t deserve it 😔, you’ve chosen us even when things were hard 💪💞.  
+Your heart is the most beautiful thing about you ❤️ — and I promise I will never take it for granted.  
+I will never forsake you 🚫💔, I will never leave you 🚶‍♂️❌, and I will always love you more each day 🌹💘.  
+You are my all in all, my everything, my reason to keep going 🌟.
+
+I have never told you this before 😌… but I will never forget the very first day we met 🌙✨.  
+It was at that junction at night 🌃.  
+I remember my look towards you that evening 😍 — it wasn’t just attraction, it was something deeper 💫.  
+It was as if my soul recognized you before my mind even understood 🌌💞.  
+And then… your eyes 👀💖.  
+Those charming, captivating eyes 😍💎 — I’ve never told you how much they’ve stayed with me.  
+They have a light, a gentleness, and a magic that makes me feel seen, understood, and loved 💫❤️.
+
+I love the way you laugh 😂❤️, the way you care so deeply 💞, the way you make me feel like I matter 🌹.  
+I love how you encourage me when I’m down 🕊️, how you believe in me when I start to doubt myself 🙌, and how you hold my hand through every storm 🌧️☀️.  
+I love your stubbornness 😄, your kindness 🪷, your strength 💪, and the way your heart always finds a way to love again 💖.
+
+My love, I am yours completely 💍.  
+My heart belongs to you 💓, my soul belongs to you 💞, and my future belongs to you 🌹.  
+No matter what life throws at us 🌪️, I will be right here — holding your hand 🤝, standing by your side 💕, and loving you with everything in me ❤️🔥.
+
+When I think of the future, I don’t see a timeline or a plan — I see *you* 😍.  
+I see your smile lighting up every day of my life 🌅💞.  
+I see your voice being the sweetest sound I’ll ever hear 🎶❤️.  
+I see your love as the anchor that will keep me steady no matter what comes 🌊⚓.
+
+You are the best part of me 🥰.  
+You inspire me to be better 🌟, to dream bigger 🌈, and to love deeper 💖.  
+Every single day, I thank God for you 🙏, for your love 💞, for your laughter 😂, for your patience 😌, and for your beautiful soul 💐.
+
+Happy Girlfriend’s Day, my queen 👑❤️.  
+You are my forever, my dream come true 💖, my one and only 💍💞.  
+And one day soon… I will see you walking towards me at the altar 💒, and I will whisper in my heart… *I finally get to call her my wife* 💘💍.
+
+Forever yours,  
+Okechukwu Justin Arinze ❤️🌹💌`;
+
 
   let displayedText = "";
   let cursor = "❤️";
@@ -141,7 +193,7 @@ Forever yours,
     document.body.appendChild(heart);
 
     const maxDimension = Math.max(window.innerWidth, window.innerHeight);
-    const targetScale = maxDimension / 30;
+    const targetScale = maxDimension / 18;
 
     gsap.fromTo(
       heart,
@@ -201,8 +253,27 @@ Forever yours,
 
   function typeLetter() {
     if (letterIndex < letter.length) {
-      displayedText += letter[letterIndex++];
-      setTimeout(typeLetter, 40);
+      const currentChar = letter[letterIndex++];
+      displayedText += currentChar;
+
+      // Default typing speed
+      let delay = 50;
+
+      // Add short pause after sentence endings
+      if (currentChar === "." || currentChar === "!" || currentChar === "?") {
+        delay = 400;
+      }
+
+      // Add longer pause after emotional beats
+      if (
+        currentChar === "❤️" ||
+        currentChar === "💍" ||
+        (currentChar === "\n" && letter[letterIndex] === "\n")
+      ) {
+        delay = 1200;
+      }
+
+      setTimeout(typeLetter, delay);
     } else {
       showButtons = true;
       finalRomanticEnding();

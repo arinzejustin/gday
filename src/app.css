@@ -47,7 +47,7 @@ html {
   width: 150px;
   height: 150px;
   cursor: pointer;
-  filter: drop-shadow(0 0 50em pink);
+  filter: drop-shadow(0 0 5em rgb(255, 167, 182));
   transition: transform 0.3s ease;
 }
 
