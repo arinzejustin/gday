@@ -471,7 +471,7 @@ Justin Arinze (He's Mine) ❤️🌹💌`;
   </div>
 {/if}
 
-{#if showButtons}
+{#if !showButtons}
   <div class="button-container">
     <button
       class="pill-button blue-pill"
@@ -484,7 +484,7 @@ Justin Arinze (He's Mine) ❤️🌹💌`;
   </div>
 {/if}
 
-{#if !showModal}
+{#if showModal}
   <div class="modal-overlay">
     <div class="modal">
       <p>{modalMessage}</p>
