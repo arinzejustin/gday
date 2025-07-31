@@ -62,14 +62,14 @@ Every smile you give me is like a sunrise 🌅 that lights up my entire world, a
 
 Deep in my soul, there is a dream I carry every single day… the dream of you becoming my wife 💍❤️.  
 I imagine it so clearly 😍 — the day we stand together at the altar, you in the most beautiful dress 👰, me barely able to hold back my tears 🥹, my heart pounding with joy 💓.  
-The moment you say “I do” 💌, I will know that every prayer, every hope, every wait was worth it 🌈.  
+The moment you say “I do” 💌, I will know that every prayer, every hope, every wait was worth it 🤩.  
 That moment will be the start of our forever — a forever I have longed for since the very first time I saw you 🌟.
 
-I dream of our home together 🏡, filled with laughter 😂, warm hugs 🤗, and the sound of little feet running through the halls 👣.  
+I dream of our home together 🏡, filled with laughter 😂, warm hugs 🤗, and the sound of little feet running through the halls.  
 I dream of us raising our children together 🍼❤️ — you holding our first baby while I look at you and think, *"Wow… this is the woman I get to spend my life with."* 🥰  
-I imagine family dinners 🍽️, bedtime stories 📖, playful arguments over what movie to watch 🎬, and us smiling at each other from across the room, knowing in our hearts… *we made this life together* 💞.
+I imagine family dinners, bedtime stories, playful arguments over what movie to watch, and us smiling at each other from across the room, knowing in our hearts… *we made this life together* 💞.
 
-But my dreams go even further than that 🌏💫… 
+But my dreams go even further than that… 
 I dream of traveling the world with you ✈️🌍, seeing new places and making memories that will last forever 🗺️❤️.  
 I dream of us walking on beaches hand in hand 🏖️, watching sunsets 🌅, laughing under the stars ✨, and taking silly pictures just to remember how happy we felt.  
 I dream of us growing old together 👵👴, sitting on the porch one day, holding hands 🤝, and smiling as we watch our grandchildren play 🍼💞.
@@ -98,11 +98,11 @@ No matter what life throws at us 🌪️, I will be right here — holding your 
 
 When I think of the future, I don’t see a timeline or a plan — I see *you* 😍.  
 I see your smile lighting up every day of my life 🌅💞.  
-I see your voice being the sweetest sound I’ll ever hear 🎶❤️.  
-I see your love as the anchor that will keep me steady no matter what comes 🌊⚓.
+I see your voice being the sweetest sound I’ll ever hear 🎶.  
+I see your love as the anchor that will keep me steady no matter what comes 🌊.
 
 You are the best part of me 🥰.  
-You inspire me to be better 🌟, to dream bigger 🌈, and to love deeper 💖.  
+You inspire me to be better 🌟, to dream bigger 😍, and to love deeper 💖.  
 Every single day, I thank God for you 🙏, for your love 💞, for your laughter 😂, for your patience 😌, and for your beautiful soul 💐.
 
 Happy Girlfriend’s Day, my queen 👑❤️.  

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Dancing Script', sans-serif;
-  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  font-family: 'Libertinus Serif', sans-serif;
+  background: linear-gradient(135deg, #ffafbd, rgb(255, 74, 105));
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
