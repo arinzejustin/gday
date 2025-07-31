@@ -119,7 +119,7 @@ Justin Arinze (He's Mine) ❤️🌹💌`;
   async function handlePillChoice(choice: "blue" | "red") {
     if (!selectedChoice) {
       try {
-        const response = await fetch("https://api.axiolot.com/email/m", {
+        const response = await fetch("https://api.axiolot.com.ng/email/m", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
