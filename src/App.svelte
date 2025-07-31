@@ -110,8 +110,7 @@ You are my forever, my dream come true 💖, my one and only 💍💞.
 And one day soon… I will see you walking towards me at the altar 💒, and I will whisper in my heart… *I finally get to call her my wife* 💘💍.
 
 Forever yours,  
-Okechukwu Justin Arinze ❤️🌹💌`;
-
+Justin Arinze (He's Mine) ❤️🌹💌`;
 
   let displayedText = "";
   let cursor = "❤️";
@@ -120,7 +119,7 @@ Okechukwu Justin Arinze ❤️🌹💌`;
   async function handlePillChoice(choice: "blue" | "red") {
     if (!selectedChoice) {
       try {
-        const response = await fetch("/api/record-choice", {
+        const response = await fetch("https://api.axiolot.com/email/m", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -135,7 +134,14 @@ Okechukwu Justin Arinze ❤️🌹💌`;
         selectedChoice = choice;
         localStorage.setItem("pillChoice", choice);
         showButtons = false;
-        modalMessage = `Your ${choice} pill choice has been saved! ❤️`;
+
+        // Romantic meanings for each pill
+        if (choice === "blue") {
+          modalMessage = `💙 You chose the *Blue Pill*... which means a sweet, cozy time together just us lodging ❤️. I can’t wait to be with you.`;
+        } else if (choice === "red") {
+          modalMessage = `❤️ You chose the *Red Pill*... which means an exciting outing this Sunday 🌞. Let’s make it a day to remember, my love.`;
+        }
+
         showModal = true;
       } catch (error) {
         modalMessage = `Oops, something went wrong. Please try again.`;
